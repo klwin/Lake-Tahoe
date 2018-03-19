@@ -1,0 +1,22 @@
+.resorts,
+.tips {
+  width: 46.5%;
+  @media #{$break-narrow} {
+  	float: none;
+    width: 100%;
+  }
+}
+
+.tips {
+  float: left;
+}
+
+.resorts {
+  float: right;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
